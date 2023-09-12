@@ -61,7 +61,7 @@
 <div class="card col-lg-9 mx-auto">
   <div class="card-body">
   <table class="table table-bordered">
-    <thead style="background-color:green">
+  <thead style="background-color:green">
       <tr>
         <th style="color:white">PO No.</th>
         <th style="color:white">No Subcont</th>
@@ -70,20 +70,18 @@
         <th style="color:white">Product Item No</th>
         <th style="color:white">Po Qty</th>
         <th style="color:white">Status</th>
-        <th style="color:white">Additional Notes</th>
       </tr>
     </thead>
-    <?php foreach($prodprogdata as $data) { ?>
-    <tbody style="background-color:white">
+    <?php foreach($statuspekerjaan as $sp) { ?>
+    <tbody style="">
       <tr>
-        <td><?= $data['id_delivery']; ?></td>
-        <td><?= $data['No_Subcont']; ?></td>
-        <td><?= $data['Nama_Subcont']; ?></td>
-        <td><?= $data['PN']; ?></td>
-        <td><?= $data['Product_Item_No']; ?></td>
-        <td><?= $data['Po_Qty']; ?></td>
-        <td><?= $data['Statuss']; ?></td>
-        <td><?= $data['additional_notes']; ?></td>
+        <td><?= $sp['id_delivery']; ?></td>
+        <td><?= $sp['No_Subcont']; ?></td>
+        <td><?= $sp['Nama_Subcont']; ?></td>
+        <td><?= $sp['PN']; ?></td>
+        <td><?= $sp['Product_Item_No']; ?></td>
+        <td><?= $sp['Po_Qty']; ?></td>
+        <td><?= $sp['Statuss']; ?></td>
       </tr>
     </tbody>
     <?php } ?>
@@ -97,22 +95,22 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
-    load_data();
-    function load_data(search){
+    load_sp();
+    function load_sp(search){
       $.ajax({
-        url:"get_data.php",
+        url:"get_sp.php",
         method:"POST",
-        data: {
+        sp: {
           search: search
         },
-        success:function(data){
-          $('#results').html(data);
+        success:function(sp){
+          $('#results').html(sp);
         }
       });
     }
     $('#search').keyup(function(){
       var search = $("#search").val();
-      load_data(search);
+      load_sp(search);
     });
   });
   </script>

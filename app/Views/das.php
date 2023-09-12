@@ -50,7 +50,6 @@
     <div class="col-md-12 text-center">
     <a href="<?= site_url('/') ?>"><button class="btn btn-primary btn-lg">Home</button></a>
     <a href="<?= site_url('qas') ?>"><button class="btn btn-primary btn-lg">Quality</button></a>
-    <a href="<?= site_url('/prodprogress') ?>"><button class="btn btn-primary btn-lg">Delivery Status</button></a>
     </div>
 </div>
 

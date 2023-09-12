@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\ProductionProgressModel;
+use App\Models\StatusPekerjaanModel;
 
 class SSManagementController extends BaseController
 {
@@ -22,12 +22,7 @@ class SSManagementController extends BaseController
         return view('das');
     }
 
-    public function prodprogress()
-    {
-        $prodprogmodel = new ProductionProgressModel;
-        $data['prodprogdata'] = $prodprogmodel->findAll();
-        return view('prodprogress',$data);
-    }
+
 
     public function inputprodprogress()
     {
@@ -35,7 +30,7 @@ class SSManagementController extends BaseController
     }
 
     public function prodprogresspost() {
-        $prodprogmodel = new ProductionProgressModel;
+        $prodprogmodel = new StatusPekerjaanModel;
         $data = [
             'Po_No' => $this->request->getVar('po-no'),
             'No_Subcont' => $this->request->getVar('po-no-subcont'),

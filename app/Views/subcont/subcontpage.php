@@ -39,8 +39,7 @@
 
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <li><a class="btn btn-success btn-sm" href="<?=site_url('/subcontpage/download') ?>">Download Data</a></li>&nbsp;
-          &nbsp;<li><a class="btn btn-danger btn-sm" href="logout.php">Logout</a></li>&nbsp;
+          <li><a class="btn btn-success btn-sm" href="<?=site_url('/subcontpage/download') ?>">Download Data</a></li>
         </li>
     </ul>
 </nav>
@@ -53,7 +52,7 @@
 <div class="container">
     <div class="col-md-12 text-center">
       <div class="alert alert-success" role="alert">
-      Selamat datang,anda telah login sebagai&nbsp;<b>Level Subcont</b>
+      Selamat datang,&nbsp;<b>Subcont</b>
     <button type="button" class="close" data-dismiss="alert" aria-label="close">
     <span aria-hidden="true">&times;</span>
     </button>
@@ -75,7 +74,7 @@
 <div class="collapse" id="collapseContent">
 <div class="card card-body mr-1">
 <div class="btn-group">
-    <a href="january_performance_reports.php" class="btn btn-warning mr-1">Januari</a>
+    <a href="<?= site_url('/subcontpage/january') ?>" class="btn btn-warning mr-1">Januari</a>
     <br>
         <a href="february_performance_reports.php" class="btn btn-warning mr-1">Februari</a>
         <br>

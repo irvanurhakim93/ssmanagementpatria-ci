@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProductionProgressModel extends Model
+class SubcontJanuary extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'delivery';
+    protected $table            = 'januari_performance_report';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['Po_No','No_Subcont','Nama_Subcont','PN','Product_Item_No','Po_Qty','Statuss','additional_notes'];
+    protected $allowedFields    = [];
 
     // Dates
     protected $useTimestamps = false;

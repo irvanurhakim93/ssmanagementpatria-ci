@@ -21,7 +21,7 @@
 
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <li><a href="<?= site_url('/loginsubcont') ?>" class="btn btn-success sm">Login</a></li>
+        <li><a href="<?= site_url('/subcontpage') ?>" class="btn btn-success sm">Subcont Page</a></li>
         <a class="nav-link" href="mailto:ou_subdev@patria.co.id" style="color:#ffffff">
                 ou_subdev@patria.co.id
             </a>

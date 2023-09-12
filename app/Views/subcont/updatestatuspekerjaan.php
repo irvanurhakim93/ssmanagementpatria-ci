@@ -33,7 +33,6 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
         <li>
-        <a class="btn btn-danger btn-sm" href="logout.php">Logout</a></li>&nbsp;
             <a class="nav-link" href="mailto:ou_subdev@patria.co.id">
                 <i class="fa fa-envelope">
                 </i>
@@ -49,7 +48,7 @@
 
 <div class="container">
     <div class="col-md-12 text-center">
-    <a href="<?=site_url('/prodprogress') ?>"><button class="btn btn-primary btn-lg">Production Progress</button></a>
+    <a href="<?=site_url('/subcontpage/daftarpekerjaan') ?>"><button class="btn btn-primary btn-lg">Daftar Status Pekerjaan</button></a>
     <a href="<?=site_url('/subcontpage') ?>"><button class="btn btn-primary btn-lg">Back To Subcont</button></a>
     </div>
 </div>

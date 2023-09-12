@@ -79,12 +79,12 @@
           <div class="form-group">
             <label for="" >Nomor Telepon</label>&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="text" name="input-company-phone" id="input-company-phone" placeholder="Masukkan nomor telepon perusahaan anda...">
+              <input type="text" class="form-control" name="input-company-phone" id="input-company-phone" placeholder="Masukkan nomor telepon perusahaan anda...">
           </div>
           <div class="form-group">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <label for="" >Fax</label>&nbsp;
-          <input type="text" name="input-company-fax" id="input-company-fax" placeholder="Masukkan nomor fax perusahaan anda...">
+          <input type="text" class="form-control" name="input-company-fax" id="input-company-fax" placeholder="Masukkan nomor fax perusahaan anda...">
           </div>
         </div>
         <br>
@@ -92,12 +92,12 @@
           <div class="form-group">
             <label for="">Email (Official)</label>&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-            <input type="email" name="input-company-email" placeholder="Masukkan email kantor">
+            <input type="email" name="input-company-email" class="form-control" placeholder="Masukkan email kantor">
           </div>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <div class="form-group">
             <label for="">Website</label>&nbsp;
-            <input type="url" name="input-company-website" placeholder="Masukkan Website Kantor">
+            <input type="url" name="input-company-website" class="form-control" placeholder="Masukkan Website Kantor">
           </div>
         </div>
         <br>

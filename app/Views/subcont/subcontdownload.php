@@ -34,7 +34,7 @@
 
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <li><a class="btn btn-danger btn-sm" href="logout.php">Logout</a></li>&nbsp;
+        <li><a class="btn btn-danger btn-sm" href="<?=base_url('/subcontpage') ?>">Back to Subcont Page</a></li>&nbsp;
         </li>
     </ul>
 
@@ -57,13 +57,13 @@
                     <tbody>
                     <?php foreach($downloads as $d) { ?>
                         <tr>
-                            <td><?= $d['id'] ?>
+                        <td><?= $d['id'] ?>
                             <td><?= $d['nama_perusahaan'] ?></td>
                             <td><a href="<?= site_url('/subcontpage/download/files/'.$d['id']);?>" class="btn btn-success"><i class="fa fa-download"></i></a></td>
                         </tr>
                     </tbody>
+                    <?php } ?>
                 </table>
-                <?php } ?>
             </div>
         </div>
     </div>
