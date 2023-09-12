@@ -1,62 +1,16 @@
 # CodeIgniter 4 Application Starter
 
-## What is CodeIgniter?
+## Tentang
+Ini adalah aplikasi SS Management PT Patria yang dimodifikasi dari PHP Native pada versi codeigniter,disini dibuat sesuai dengan database yang masih ada serta menampilkan menyesuaikan yang sebelumnya pernah dibuat.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## Screenshot
+![Screenshot_2023-09-12_15-54-48](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/161a0668-3bfc-4d5e-9ded-05a3491b9e74)
+![Screenshot_2023-09-12_15-55-06](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/01ecb104-cd50-4e9b-afbf-01cb9801e147)
+![Screenshot_2023-09-12_15-55-12](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/f00c270f-dab4-4e15-b638-dc519df4d1c3)
+![Screenshot_2023-09-12_15-55-20](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/b3c31afa-137c-4ef5-98c4-15f021bad840)
+![Screenshot_2023-09-12_15-55-26](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/ad9a84e1-b17e-45d1-b743-4b7de44814ed)
+![Screenshot_2023-09-12_15-56-04](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/f6d3c635-dcaf-4415-9a73-db46e1ca99d1)
+![Screenshot_2023-09-12_15-57-11](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/28c5ffed-ef97-4894-8db3-7c3f30238065)
+![Screenshot_2023-09-12_15-57-35](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/6340cb15-b42d-47a7-a21a-eddc826f2bd7)
+![Screenshot_2023-09-12_15-57-45](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/c4696a06-4496-4528-8c5f-b41bc8edaaf4)
+![Screenshot_2023-09-12_15-57-54](https://github.com/irvanurhakim93/ssmanagementpatria-ci/assets/77344181/7df98eca-f287-4f5f-ad18-3b7fa1ed54d1)
