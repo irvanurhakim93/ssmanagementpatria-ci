@@ -54,7 +54,7 @@
 <div class="container">
     <div class="col-md-12 text-center">
     <a href="<?= site_url('/') ?>"><button class="btn btn-primary btn-lg">Home</button></a>
-    <a href="<?= site_url('/prodprogress/input') ?>"><button class="btn btn-primary btn-lg">Input Production Progress</button></a>
+    <a href="<?= site_url('/prodprogress/input') ?>"><button class="btn btn-primary btn-lg">Update Status Pekerjaan</button></a>
     </div>
 </div>
 

@@ -435,7 +435,7 @@ class SubcontController extends BaseController
             'Statuss' => $this->request->getPost('status-select'),
         ];
         $statusPekerjaanModel->insert($data);
-        return $this->response->redirect(site_url('/prodprogress'));
+        return $this->response->redirect(site_url('/subcontpage/daftarpekerjaan'));
     }
 
     public function downloadData() 

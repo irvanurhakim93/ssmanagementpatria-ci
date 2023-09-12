@@ -54,7 +54,7 @@
 </div>
 
 <div class="card col-lg-9 mx-auto">
-  <form name="subcont-shipping-data" method="post" action="deliv_submit.php" id="subcont-shipping-data">
+  <form name="subcont-shipping-data" method="post" action="<?= site_url('/subcontpage/updatestatuspekerjaan/post') ?>" id="subcont-shipping-data">
   <div class="card-body">
   <h3 style="text-align:center;">Please input delivery details here</h3>
   <br>
