@@ -18,6 +18,7 @@ $routes->get('/subcontpage/daftarpekerjaan','SubcontController::daftarstatus');
 $routes->get('/subcontpage/updatestatuspekerjaan','SubcontController::updateStatusPekerjaan');
 $routes->post('/subcontpage/updatestatuspekerjaan/post','SubcontController::postStatusPekerjaan');
 $routes->get('/subcontpage/updatedata','SubcontController::updateDataSubcont');
+$routes->post('/subcontpage/updatedata/post','SubcontController::postDataSubcont');
 $routes->get('/subcontpage/download','SubcontController::downloadData');
 $routes->get('/subcontpage/download/files/(:num)','SubcontController::downloadFiles/$1');
 $routes->get('/subcontpage/printpdf','SubcontController::printpdf');

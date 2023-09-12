@@ -55,7 +55,7 @@
     <div class="card col-lg-9 mx-auto">
         <div class="card-body">
           <h3 style="text-align:center;"><b>Masukkan data subcont disini</b></h3>
-        <form  method="post" action="update_subcont_submit_first_page.php">
+        <form  method="post" action="<?= site_url('/subcontpage/updatedata/post') ?>">
           <br>
         <div class="form-group row">
           <label for="companyName" class="col-sm-3 col-form-label"><b>1.Nama Perusahaan</b></label>
